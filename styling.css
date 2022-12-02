@@ -1,0 +1,732 @@
+/*
+Below, css rules for the landing_page!
+*/
+body.landing_page {
+    position: fixed;
+}
+nav{
+    background-color: teal;
+    position: fixed;
+    top: 0px;
+    right:0px;
+    left: 0px;
+    box-shadow: 0px 4px 4px red;
+}
+nav a {
+    color: blue;
+}
+a.link {
+    text-decoration: none;
+}
+nav a:hover {
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: yellow;
+}
+#intro {
+    padding-inline-end: 30px;
+    color: purple;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 25px;
+    background-color: yellow;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-right: 1000px;
+}
+div.projects {
+    position: relative;
+    top: 130px;
+}
+div.projects h1 {
+    text-align: center;
+    font-weight: bold;
+    color: green;
+    font-size: 40px;
+    border: 4px solid sandybrown;
+    position: relative;
+    right: 30px;
+    top: 30px;
+    margin-left: 600px;
+    margin-right: 600px;
+    background-color: gold;
+}
+div.project {
+    margin-top: 30px;
+    margin-bottom: 60px;
+    margin-right: 300px;
+    border: 3px solid yellow;
+    position: relative;
+    left: 100px;
+    background-color: orange;
+}
+div.horizontal-border {
+    border-bottom: 10px solid darkolivegreen;
+    position: relative;
+    top: 10px;
+}
+div.projects p.title {
+    font-size: 30px;
+    font-style: italic;
+    padding-left: 20px;
+    font-weight: bold;
+    color: lightblue;
+    border: 3px solid black;
+    background-color: saddlebrown;
+    border-radius: 10px;
+    margin-right: 300px;
+    padding-left: 10px;
+}
+div.description p {
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 10px;
+    font-style: italic;
+    text-align: left;
+    color: rgb(87, 87, 59);
+    margin-top: 0px;
+    position: relative;
+    top: 10px;
+}
+div.projects button{
+   position: relative;
+   left: 30px;
+   background-color: green;
+   bottom: 20px;
+}
+div.projects button:hover {
+    background-color: red;
+}
+nav li{
+   display: inline-block;
+   font-family: sans-serif; 
+   margin: 5px;
+   user-select: none;
+   color: blue;
+}
+nav .dropdown{
+    display: none;
+    position: absolute;
+    border: 1px solid gray;
+    background-color: orange;
+}
+nav li:hover ul.dropdown {
+    display: block;
+}
+ul.dropdown li {
+    display: block;
+}
+/*
+Below, css rules for personal_bio page!
+*/
+body.bio {
+    background-color: lightskyblue;
+}
+div.bio {
+    margin-left: 10px;
+}
+div.bio h1 {
+    color: slateblue;
+    text-align: center;
+    font-size: 50px;
+    border: 2px solid purple;
+    background-color: yellow;
+    border-radius: 5px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+div.bio_info {
+    text-align: center;
+    border-radius: 5px;
+    border: 3px solid blue;
+    margin-left: 400px;
+    margin-right: 400px;
+    background-color: orange;
+
+}
+div.bio_info p {
+    color: purple;
+    font-style: italic;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+span.answer {
+    color: darkblue;
+    font-style: normal;
+    font-weight: bold;
+}
+div.bio_info a {
+    color: saddlebrown;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+div.bio_info a:hover{
+    color: blue;
+}
+#work.hidden , #hobby.hidden {
+    display: none;
+}
+#work.visible, #hobby.visible {
+    display: block;
+    list-style: none;
+}
+#work p {
+    color: red;
+    font-weight: bold;
+}
+#hobby p{
+    color: springgreen;
+    font-weight: bold;
+}
+div.bio #bio_msg {
+   color: darkslategray;
+   font-size: 30px;
+   font-weight: bold;
+   text-decoration: underline;
+   text-decoration-color: gray;
+   text-align: center;
+}
+
+div.bio button:hover {
+   background-color: teal;
+}
+
+/*
+Below, CSS Rules for Personal Contact Page!
+*/
+body.personal_contact {
+    background-color: lightpink;
+}
+.contact {
+    margin-left: 20px;
+}
+.contact h1 {
+    text-align: center;
+    font-size: 50px;
+    color: slateblue;
+    border: 2px solid purple;
+    border-radius: 5px;
+    background-color: yellow;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+.contact li {
+    padding-top: 15px;
+    font-size: 15px;
+    padding-bottom: 15px;
+    color: blue;
+    font-weight: bold;
+
+}
+.contact ol {
+    border-radius: 5px;
+    border: 3px solid;
+    border-color: white;
+    background-color: orange;
+}
+div.contact #contact_msg {
+    color: purple;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    text-decoration-color: darkgoldenrod;
+    text-align: center;
+}
+div.contact span{
+    font-style: italic;
+    color: darkgreen;
+    font-size: 20px;
+    border: 2px solid;
+    border-color: slateblue;
+    border-radius: 5px;
+    background-color: pink;
+    margin-left: 10px;
+
+}
+div.contact a {
+    color: purple;
+    font-weight: bold;
+    font-size: 20px;
+}
+div.contact a:hover {
+    color: lightskyblue;
+    font-weight: bold;
+    font-size: 20px;
+}
+/*
+CSS Rules for Form Page!
+*/
+body.form {
+    background-color: rgb(143, 236, 137);
+}
+#form_header {
+    text-align: center;
+    font-size: 50px;
+    color: slateblue;
+    border: 2px solid purple;
+    background-color: yellow;
+    margin-left:500px;
+    margin-right:450px;
+}
+form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 3px solid gray;
+    border-radius: 1em;
+    background-color: orange;
+}
+form ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+form li {
+    margin-top: 1em;
+}
+form label {
+    display: inline-block;
+    width: 70px;
+    text-align: right;
+    color: royalblue;
+    padding-right: 10px;
+}
+
+input, textarea {
+    font: sans-serif;
+    width: 300px;
+    box-sizing: border-box;
+    border: 2px solid yellowgreen;
+}
+
+input:focus, textarea:focus {
+    border: 1px solid black;
+}
+textarea {
+    height: 100px;
+    vertical-align: top;
+}
+form li.button {
+    padding-left: 190px;
+}
+form li.button input{
+    background-color: green;
+    width: 100px;
+    height: 50px;
+    color: white;
+}
+#employer {
+    position: relative;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+}
+body.form p {
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: red;
+    color: darkblue;
+}
+/*
+CSS Rules for timeline page!
+*/
+body.timeline {
+    background: rgb(200,230, 230);
+    margin: 0px;
+    padding: 0px;
+    color: rgb(50, 50, 50);
+    font-family: Sans-Serif;
+    line-height: 1.6em;
+}
+ul.timeline {
+    position: relative;
+    width: 660px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 1em 0;
+    list-style-type: none;
+  }
+ul.timeline:before {
+        position: absolute;
+        left: 50%;
+        top: 0;
+        content: ' ';
+        display: block;
+        width: 6px;
+        height: 100%;
+        margin-left: -3px;
+        background: rgb(80,80,80);
+        background: -moz-linear-gradient(top, rgba(80,80,80,0) 0%, rgb(80,80,80) 8%, rgb(80,80,80) 92%, rgba(80,80,80,0) 100%);
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(30,87,153,1)), color-stop(100%,rgba(125,185,232,1)));
+        background: -webkit-linear-gradient(top, rgba(80,80,80,0) 0%, rgb(80,80,80) 8%, rgb(80,80,80) 92%, rgba(80,80,80,0) 100%);
+        background: -o-linear-gradient(top, rgba(80,80,80,0) 0%, rgb(80,80,80) 8%, rgb(80,80,80) 92%, rgba(80,80,80,0) 100%);
+        background: -ms-linear-gradient(top, rgba(80,80,80,0) 0%, rgb(80,80,80) 8%, rgb(80,80,80) 92%, rgba(80,80,80,0) 100%);
+        background: linear-gradient(to bottom, rgba(80,80,80,0) 0%, rgb(80,80,80) 8%, rgb(80,80,80) 92%, rgba(80,80,80,0) 100%);
+        
+        z-index: 5;
+}
+div.timeline-left span.milestone{
+    -webkit-box-shadow: -1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
+    -moz-box-shadow: -1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
+    box-shadow: -1px 1px 1px rgba(0,0,0,0.15), 0 0 1px rgba(0,0,0,0.15);
+}
+div.timeline-left span.milestone:before,
+div.timeline-right span.milestone:before {
+  position: absolute;
+  top: 50%;
+  right: -40px;
+  content: ' ';
+  display: block;
+  width: 12px;
+  height: 12px;
+  margin-top: -10px;
+  background: #fff;
+  border-radius: 10px;
+  border: 4px solid rgb(255,80,80);
+  z-index: 10;
+}
+div.timeline-right span.milestone:before {
+    left: -40px;
+}
+div.timeline-left span.milestone:after {
+    content: "";
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    height: 0;
+    width: 0;
+    margin-top: -8px;
+    border: solid transparent;
+    border-left-color: rgb(248,248,248);
+    border-width: 8px;
+    pointer-events: none;
+  }
+  div.timeline-right span.milestone:after {
+    content: "";
+    position: absolute;
+    right: 100%;
+    top: 50%;
+    height: 0;
+    width: 0;
+    margin-top: -8px;
+    border: solid transparent;
+    border-right-color: rgb(248,248,248);
+    border-width: 8px;
+    pointer-events: none;
+  }
+
+ul.timeline li:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+ul.timeline li {
+     padding: 2em 0;
+}
+.timeline-left, .timeline-right {
+    float: none;
+    width: 100%;
+    text-align: center;
+}
+ul.timeline li div.timeline-left {
+    position: relative;
+    width: 400px;
+    float: left;
+}
+ul.timeline li div.timeline-right {
+    position: relative;
+    float: right;
+    width: 400px;
+}
+.flag-wrapper {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+}
+.milestone {
+    position: relative;
+    display: inline;
+    background: white;
+    padding: 6px 10px;
+    text-align: left;
+    border-radius: 5px;
+    font-weight: bold;
+}
+  span.time-container {
+    display: inline;
+    line-height: 1em;
+    vertical-align: middle;
+    color: blueviolet;
+    background-color: rgb(0, 255, 217);
+    font-size: 15px;
+    width: 100px;
+    height: 50px;
+  }
+  div.timeline-left span.time-container {
+    position: relative;
+    float: left;
+  }
+  div.timeline-right span.time-container {
+    position: relative;
+    float: right;
+  }
+  span.time {
+    display: inline;
+    padding: 4px 6px;
+  }
+  div.timeline-description {
+    margin: 1em 0.75em 0 0;
+    font-size: 0.7em;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 1.5em;
+    padding-top: 6px;
+    padding-left: 10px;
+    border: 1px solid;
+    border-radius: 3px;
+    border-color: blue;
+    background-color: orange;
+    text-align: left;
+  }
+  div.timeline-right div.timeline-description {
+    position: relative;
+    left: 35px;
+  }
+  div.timeline-left div.timeline-description {
+    position: relative;
+    right: 30px;
+  }
+  div.timeline-left div.timeline-description {
+    margin: 1em 0 0 0.75em;
+  }
+  #first_point {
+    position: relative;
+    right: 84px;
+  }
+  #second_point {
+    position: relative;
+    left: 63px;
+  }
+  #third_point {
+    position: relative;
+    right: 52px;
+  }
+  #fourth_point {
+    position: relative;
+    left: 47px;
+  }
+  body.timeline h1{
+    text-align: center;
+    margin-top: 20px;
+    color: slateblue;
+    border: 2px solid purple;
+    border-radius: 5px;
+    background-color: yellow;
+    height: 35px;
+    padding-top: 5px;
+    margin-left: 500px;
+    margin-right: 500px;
+  }
+  #Optum {
+    position: relative;
+    right: 430px;
+    bottom: 25px;
+  }
+  #Publicis_Sapient {
+    position: relative;
+    left: 450px;
+    bottom: 25px;
+  }
+
+#Northwestern {
+    position: relative;
+    left: 420px;
+}
+#Sycamore {
+    position: relative;
+    right: 420px;
+}
+/*
+CSS Rules for Tweets Page!
+*/
+body.twitter {
+    background-color: silver;
+}
+div.tweets h1 {
+    color:rgb(143, 236, 137);
+    border: 2px solid;
+    border-color: black;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 10px;
+    background-color: yellow;
+    font-weight: bold;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+#tweets_intro {
+    font-style: italic;
+    text-align: center; 
+    font-size: 30px;
+    color: blue;
+    text-decoration: underline;
+    text-decoration-color: purple;
+}
+div.tweet-feed-container {
+    margin-left: 550px;
+    width: 300px;
+    height: 300px;
+    border: 3px solid lightskyblue;
+    border-radius: 5px;
+}
+/*
+CSS Rules for Schedule Page!
+*/
+body.calender {
+    background-color: lightgoldenrodyellow;
+}
+div.calender-container p {
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    color: green;
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: cyan;
+    font-size: 25px;
+    margin: auto;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 5px;
+    
+}
+body.calender h1 {
+    text-align: center;
+    font-weight: bold;
+    background-color: orange;
+    color: purple;
+    border: 3px solid blue;
+    border-radius: 5px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+div.calender-container iframe {
+    position: relative;
+    left: 400px;
+    top: 50px;
+}
+
+/*
+CSS Rules for Tic Tac Toe Page
+*/
+body.tic-demo {
+    background-color:rgb(200,230, 230);
+}
+body.tic-demo h1 {
+    text-align: center;
+    border: 3px solid yellowgreen;
+    background-color: yellow;
+    margin-left: 450px;
+    margin-right: 450px;
+}
+body.tic-demo p {
+    border: 3px solid yellow;
+    border-radius: 5px;
+    background-color: orange;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 60px;
+    padding-left: 10px;
+}
+body.tic-demo video {
+    margin-left: 400px;
+    margin-top: 20px;
+    border: 5px solid brown;
+    box-shadow: green;
+    width: 475px;
+    height: 400px;
+}
+#rules {
+    margin-top: 30px;
+    background-color:rgb(143, 236, 137);
+    height: 350px;
+    border: 3px solid red;
+    border-radius: 5px;
+    margin-right: 50px;
+}
+#rules p {
+    margin-left: 15px;
+    margin-right: 850px;
+    padding-bottom: 5px;
+}
+#rules span {
+    font-weight: bold;
+    color:darkcyan;
+    font-size: 40px;
+    font-style: italic;
+    padding-left: 30px;
+}
+/*
+CSS Rules for Device Driver Demo Page!
+*/
+body.driver-demo {
+    background-color: darkslategrey;
+}
+body.driver-demo h1 {
+    text-align: center;
+    font-style: bold;
+    color: orange;
+    border: 3px solid white;
+    background-color: yellow;
+    border-radius: 5px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+div.driver-container {
+    margin-left: 50px;
+    margin-top: 20px;
+}
+div.driver-container p {
+    font-style: italic;
+    border-radius: 5px;
+    border: 2px solid purple;
+    background-color: orange;
+    text-align: left;
+    height: 50px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+div.device-content video {
+    margin-left: 10px;
+    margin-top: 50px;
+}
+#further-details span {
+    text-decoration: underline;
+    text-decoration-color: darksalmon;
+    font-size: 20px;
+    font-weight: bold;
+    color:aqua;
+
+}
+#further-details {
+    margin-top: 30px;
+    background-color: brown;
+    height: 200px;
+    border: 3px solid blue;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 30px;
+    width: 800px;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    left: 520px;
+    bottom: 400px;
+}

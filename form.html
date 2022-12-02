@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset = "UTF-8">
+    <title>Get in Touch Form</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel = "stylesheet" href = "styling.css">
+    <head>
+        <script src = "./script.js"></script>
+        <script src = "./validate.js"></script>
+    </head>
+<body class = "form">
+    <h1 id = "form_header">
+        Get in Touch Form
+    </h1>
+    <p>
+        Please fill out the form below if you wish to get in contact with me! Thanks for visiting Sung Park's website!
+    </p>
+    <form action = "http://localhost:8001/form" method = "POST">
+        <ul>
+            <li>
+                <label for = "fname">First Name:</label>
+                <input onblur = "validate_first_name()" id = "fname" type = "text" name = "user_fname" maxlength = "30" required />
+            </li>
+            <li>
+                <label for = "lname">Last Name:</label>
+                <input onblur = "validate_last_name()" id = "lname" type = "text" name = "user_lname" maxlength = "30" required />
+            </li>
+            <li>
+                <label for = "email">Email:</label>
+                <input onblur = "validate_email()" id= "email" type = "email" name = "user_email" required />
+            </li>
+            <li>
+                <label for = "date">Today's Date:</label>
+                <input id = "date" type = "date" name = "user_date" required />
+            </li>
+            <li>
+                <label for = "employer">Are you an employer?</label>
+                <input id = "employer" type = "checkbox" name = "user_is_employer"  />
+            </li>
+            <li>
+                <label for = "message">Message:</label>
+                <textarea id = "message" name = "user_message"></textarea>
+            </li>
+            <li class = "button">
+                <input type = "submit" value = "Submit!" />
+            </li>
+        </ul>
+    </form>
+</body>
+</html>

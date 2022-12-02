@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset = "UTF-8">
+    <title>Sung Park's Device Driver Project</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel = "stylesheet" href = "styling.css">
+<body class = "driver-demo">
+    <h1>
+        Sung Park's Device Driver Software Demo!
+    </h1>
+    <div class = "driver-container">
+        <p>
+            Below, I have attached a demo of drawing geometrical shapes, lines, 
+            bitmaps, and more! In order for this to be possible, the device driver
+            software had to communicate to the hardware device and relay responses
+            back to the Graphical Processing Unit (GPU) in a timely manner!
+        </p>
+        <div class = "device-content">
+            <video width = "500px" height = "400px" controls = "controls">
+                <source type = "video/mp4" src = "./demos/DeviceDriverDemo.mov" />
+            </video>
+        </div>
+        <div id = "further-details">
+            <span>Further Details:</span>
+            <p>1. In order to transition from one drawing to another drawing, the screen
+            needs to get flushed on a consistent basis. The flush request has to be 
+            effectively carried out by hardware and GPU must be alerted before
+            drawing a new thing.</span>
+            <p>2.The data for each and every pixel is stored in a framebuffer 
+            data structure and have to be consistently updated and kept in align
+            with the state object that keeps track of the state of the device
+            driver.</span>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset = "UTF-8">
+<title>Sung Park's Bio</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel = "stylesheet" href = "styling.css">
+<body class = "bio">
+    <div class = "bio">
+        <h1>
+            Sung Park's Personal Info Page
+        </h1>
+        <p id = "bio_msg">Below, I have listed out personal information!</p>
+        <div class = "bio_info">
+                <p>Currently attending university: 
+                    <span class = "answer">
+                        Northwestern University
+                    </span>
+                </p>
+                <p>Grade Level: <span class = "answer">Junior</span></p>
+                <p>Major/Minor: <span class = "answer">Computer Science/Economics</span></p>
+                <p>Resume: <a href="Sung_Park(Final Resume).pdf">Click here to get instant access to my resume!</a></p>
+                <p>
+                    Work Experience:
+                    <button id = "work_button" onclick = "show_work()">
+                        Click to view my work experience!
+                    </button>
+                    <div class = "hidden" id = "work">
+                        <p>1.Technology Development Intern at Optum (June 2022 - Aug 2022)</p>
+                        <p>2.Software Engineering Intern at Publicis Sapient (June 2023 - Augest 2023)</p>
+                    </div>
+                </p>
+                <p>
+                     Hobbies:
+                     <button id = "hobby_button" onclick = "show_hobby()">
+                        Click to view my list of hobbies!
+                     </button>
+                     <div class = "hidden" id = "hobby">
+                        <p>1.Play violin</p>
+                        <p>2.Play basketball with my peers</p>
+                        <p>3.Watch professional football and baseball</p>
+                    </div>
+                </p>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
